@@ -1,0 +1,16 @@
+{
+  "name": "meshfs.io",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Official MeshFS website running on Cloudflare Workers.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test",
+    "check": "node --check src/site.js && node --check src/worker.js && npm run test"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

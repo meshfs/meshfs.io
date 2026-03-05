@@ -1,0 +1,8 @@
+name = "meshfs-io"
+main = "src/worker.js"
+compatibility_date = "2026-03-05"
+
+routes = [
+  { pattern = "meshfs.io", custom_domain = true, zone_name = "meshfs.io" },
+  { pattern = "www.meshfs.io", custom_domain = true, zone_name = "meshfs.io" }
+]
